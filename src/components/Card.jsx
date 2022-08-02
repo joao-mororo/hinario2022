@@ -6,9 +6,6 @@ import List from "./List";
 function Card() {
     const [list, setList] = React.useState();
 
-    function searchHymn() {
-
-    }
 
     function compareTexts(text1, text2) {
         text1 = text1.toLowerCase()
@@ -27,16 +24,13 @@ function Card() {
         if (event.target.name === 'search') {
             let arr = []
             for (let x=0; x<hinos.length; x++) {
-                let hino = `[${hinos[x].num}] - ${hinos[x].name}`
+                // let hino = `[${hinos[x].num}] - ${hinos[x].name}`
                 if (hinos[x].num.toString() === event.target.value) {
-                    arr.push(hino)
+                    arr.push(hinos[x])
                 }
                 if (compareTexts(hinos[x].name, event.target.value)) {
-                    arr.push(hino)
+                    arr.push(hinos[x])
                 }
-                // if (hinos[x].name.includes(event.target.value) && event.target.value !== '') {
-                //     arr.push(hinos[x])
-                // }
             }
             console.log(arr)
             setList(arr)
