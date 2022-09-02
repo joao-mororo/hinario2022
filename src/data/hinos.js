@@ -23,7 +23,7 @@ let hinos = [
     {num: 22, name:'A Tí Toda Glória', link: 'https://youtu.be/BwISjJU028U'},
     {num: 23, name:'Louvai A Cristo', link: 'https://youtu.be/0LeRHv_eCgk'},
     {num: 24, name:'Rei dos Reis', link: 'https://youtu.be/AlTWVhSsndI'},
-    {num: 25, name:'Jeus Sempre Te Amo', link: 'https://youtu.be/T5jU2aXD0cI'},
+    {num: 25, name:'Jesus Sempre Te Amo', link: 'https://youtu.be/T5jU2aXD0cI'},
     {num: 26, name:'Saudai o Nome de Jesus', link: 'https://youtu.be/qQuZ30_VVbU'},
     {num: 27, name:'Com Glória Coroai', link: 'https://youtu.be/xlkwuGo10Os'},
     {num: 28, name:'Lindo És, Meu Mestre', link: 'https://youtu.be/DRYgNLQNjmU'},

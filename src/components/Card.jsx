@@ -1,5 +1,5 @@
 import React from "react";
-import './Card.css'
+import './style.css'
 import hinos from "../data/hinos";
 import List from "./List";
 
@@ -40,9 +40,9 @@ function Card() {
     
     return (
         <div className="hinario">
-            <div className="Card" />
+            <div className="Image" />
             <div className="list">
-                <input type="text" onChange={handleChange} name="search"/>
+                <input id="searchBar" type="text" onChange={handleChange} name="search" placeholder="Pesquisar..."/>
                 <List list={list} />
             </div>
         </div>

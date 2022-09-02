@@ -1,0 +1,88 @@
+.hinario {
+    display: flex;
+    background-color: black;
+    border: solid 1px #fefefe;
+    border-radius: 5px;
+    width: 900px;
+    height: 600px;
+}
+
+.Image {
+    position: relative;
+    left: 0;
+    background-image: url('./images/hinarioWallpaper.PNG');
+    background-position: center;
+    background-size: cover;
+    /* height: 600px;
+    width: 450px; */
+    width: 120%;
+    border-radius: 5px;
+}
+
+#searchBar {
+    height: 30px;
+    width: 70%;
+    border: solid 2px #fcba03;
+    border-radius: 13px;
+    margin-top: 15px;
+    padding: 0px 7px;
+    background-color: black;
+    color: white;
+}
+.list {
+    width: 80%;
+    height: 600px;
+}
+
+
+/* componente List */
+.ulList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 551px;
+    overflow: auto;
+}
+.liList {
+    display: flex;
+    justify-content: left;
+}
+.liList:hover {
+    background-color: #fcba03;
+    border-radius: 5px;
+    color: black;
+}
+.aList {
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+.aList:hover,
+.aList:hover .spanList {
+    color: black;
+}
+.spanList {
+    color: #fcba03;
+}
+
+/* width */
+.ulList::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Handle */
+.ulList::-webkit-scrollbar-thumb {
+    background: #fcba03; 
+    border-radius: 5px; 
+}
+
+/* Handle on hover */
+.ulList::-webkit-scrollbar-thumb:hover {
+    background: #a57900;
+    border-radius: 5px; 
+}
